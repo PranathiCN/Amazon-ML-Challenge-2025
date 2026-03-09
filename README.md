@@ -2,12 +2,12 @@
 
 This repository contains the solution developed for the **Amazon ML Challenge 2025**. The goal of the competition was to predict the list price of products based on unstructured catalog metadata including titles, descriptions, and category information.
 
-## 📊 Project Performance
+## Project Performance
 - **Validation SMAPE:** 51.91
 - **Evaluation Metric:** Symmetric Mean Absolute Percentage Error (SMAPE)
 - **Model Architecture:** Gradient Boosted Decision Trees (LightGBM)
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### 1. Data Preprocessing & Feature Engineering
 - **NLP Pipeline:** Implemented a robust text cleaning pipeline to handle noise in product titles and descriptions.
@@ -20,7 +20,7 @@ This repository contains the solution developed for the **Amazon ML Challenge 20
 
 
 
-## 🚀 Roadmap & Future Improvisations
+## Roadmap & Future Improvisations
 *To further reduce the SMAPE score below 45, the following high-impact strategies were identified for future iterations:*
 
 - **Multimodal Fusion:** Integrating visual signals by extracting image embeddings using a pre-trained **CLIP (ViT-B/32)** model.
@@ -28,12 +28,12 @@ This repository contains the solution developed for the **Amazon ML Challenge 20
 - **Transformer Embeddings:** Replacing TF-IDF with transformer-based models like **DeBERTa-v3-Large** for superior semantic context.
 - **Ensemble Learning:** Developing a weighted ensemble of XGBoost, LightGBM, and CatBoost to reduce variance and improve prediction stability.
 
-## 📂 Project Structure
+## Project Structure
 - `mlamazon.ipynb`: Main Jupyter notebook containing the full training and inference pipeline.
 - `.gitignore`: Configured to exclude large datasets and temporary Jupyter checkpoints.
 - `LICENSE`: MIT License.
 
-## ⚙️ Requirements
+## Requirements
 - Python 3.x
 - LightGBM
 - Scikit-learn
